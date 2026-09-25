@@ -3,10 +3,14 @@
 ## Étudiants
 
 - Un étudiant doit être authentifié pour rejoindre un challenge.
-- Un étudiant ne peut rejoindre qu'une seule fois un même challenge.
+- Un étudiant ne peut avoir qu'une participation active à la fois pour un même
+  challenge.
+- Une participation `WAITING` ou `ACTIVE` est considérée comme active.
+- Après `COMPLETED` ou `FAILED`, l'étudiant peut refaire le même challenge.
 - Un étudiant pénalisé ne peut pas rejoindre de nouveau challenge pendant
   sa période de pénalité.
-- Un étudiant peut refaire un challenge déjà terminé.
+- Ces règles critiques seront appliquées côté serveur/RPC lors de
+  l'implémentation du join.
 
 ## Groupes
 

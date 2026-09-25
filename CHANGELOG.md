@@ -6,6 +6,18 @@ fichier.
 Le format utilisé suit une structure inspirée de
 [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Added
+
+- Fondation Supabase/PostgreSQL et configuration de la CLI.
+- Migrations de base de données pour les six tables métier.
+- Schéma, relations, contraintes, index et triggers (mise à jour et
+  création de profil).
+- Baseline RLS pour la lecture de son profil et de ses notifications.
+- Validation des migrations avec `supabase db reset` localement et avec
+  `supabase db push` sur le projet Cloud.
+
 ## [0.1.0] - 2026-09-25
 
 ### Added
