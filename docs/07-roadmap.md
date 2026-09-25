@@ -17,17 +17,23 @@
 - [x] Vérifier la CI sur GitHub
 - [x] Créer un premier commit
 
-## Phase 2 — Supabase
+## Phase 2 — Supabase Foundation
 
-- [ ] Créer le projet Supabase
+- [x] Installer et configurer la CLI Supabase
+- [x] Créer le projet Supabase
+- [x] Lier le projet Supabase au repository
+- [x] Créer les migrations
+- [x] Créer les tables
+- [x] Ajouter les contraintes
+- [x] Ajouter les indexes
+- [x] Configurer la baseline RLS
+- [x] Tester les migrations avec `supabase db reset`
+- [x] Appliquer et vérifier les migrations sur le Cloud
 - [ ] Configurer les variables d'environnement
-- [ ] Créer les migrations
-- [ ] Créer les tables
-- [ ] Ajouter les contraintes
-- [ ] Ajouter les indexes
-- [ ] Configurer RLS
 - [ ] Configurer Auth
 - [ ] Tester la connexion Flutter/Supabase
+
+> La fondation Supabase est terminée. La prochaine étape est la Phase 3 — Authentification.
 
 ## Phase 3 — Authentification
 
